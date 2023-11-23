@@ -1,1 +1,11 @@
-
+#include<stdio.h>
+#define PI 3.14159
+main()
+{  double r,c,area;
+   printf("input radius:");
+   scanf("%lf",&r);
+   c=2*PI*r;
+   area=PI*r*r;
+   printf("%f,%f",c,area);
+   getch(); 
+}
