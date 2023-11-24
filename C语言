@@ -9,3 +9,25 @@ main()
    printf("%f,%f",c,area);
    getch(); 
 }
+
+
+#include<stdio.h>
+main()
+{ int a,b,c;
+  printf("please input 2 integers:");
+  scanf("%d%d",&a,&b);
+  c=a*b;
+  printf("%d*%d=%d",a,b,c);
+  getch();
+}
+
+
+#include<stdio.h>
+main()
+{ char cl,cu;
+  printf("please input a lowercase letter:");
+  scanf("%c",&cl);
+  cu=cl-32;
+  printf("%c\t%c",cl,cu);
+  getch();  
+}
