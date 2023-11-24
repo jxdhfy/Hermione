@@ -21,13 +21,3 @@ main()
   getch();
 }
 
-
-#include<stdio.h>
-main()
-{ char cl,cu;
-  printf("please input a lowercase letter:");
-  scanf("%c",&cl);
-  cu=cl-32;
-  printf("%c\t%c",cl,cu);
-  getch();  
-}
