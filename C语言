@@ -34,7 +34,8 @@ int main()
 	return 0;
 }
 
-
+#include<stdio.h>
+int main()
 { char cl,cu;
   printf("please input a lowercase letter:");
   scanf("%c",&cl);
