@@ -101,3 +101,17 @@ int main()
 		}
 	return 0;
 }
+
+
+#include<stdio.h>
+int main()
+{
+	int imput=0;
+ 	printf("你要好好学习吗?(1/0)>:");
+ 	scanf("%d",&imput);
+ 	if(imput==1)
+ 		printf("good offer\n");
+ 	else
+ 		printf("working\n");
+	return 0;
+}
