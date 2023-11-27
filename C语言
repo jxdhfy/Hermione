@@ -82,3 +82,22 @@ int main()
 	}
 	return 0;
 }
+
+
+#include<stdio.h>
+int main()
+{
+	int day;
+	for(day=1;day<=7;day++)
+		switch(day)
+		{
+			case 1:printf("monday\n",day);
+			case 2:printf("tuesday\n",day);
+			case 3:printf("wednesday\n",day);
+			case 4:printf("thusday\n",day);
+			case 5:printf("friday\n",day);
+			case 6:printf("saturday\n",day);
+			case 7:printf("sunday\n",day);
+		}
+	return 0;
+}
