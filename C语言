@@ -164,3 +164,13 @@ int main()
 	printf("%d\n",strlen(arr2));
 	return 0;
 }
+
+
+#include<stdio.h>
+#define MF(x,y) x*y
+int main()
+{ int r;
+  r=MF(2+3,4);	
+  printf("%d",r);
+  return 0;
+}
