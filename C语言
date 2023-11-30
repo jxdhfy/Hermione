@@ -174,3 +174,18 @@ int main()
   printf("%d",r);
   return 0;
 }
+
+
+#include<stdio.h>
+int main()
+{
+	double x,y,max,min;
+	scanf("%lf%lf",&x,&y);
+	if(x<y)
+		max=y,min=x;
+	else
+		max=x,min=y;
+	printf("max=%f\n",max);
+	printf("min=%f\n",min);
+	return 0;
+}
