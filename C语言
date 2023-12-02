@@ -222,3 +222,16 @@ int main()
 { printf("hello world!\n");
   return 0;
 }
+
+
+#include<stdio.h>
+int main()
+{ double sum=0;
+  int i=1;
+  while(i<=100)
+  {  sum=sum+1.0/i;
+     i++;
+  }
+  printf("sum=%f\n",sum);
+  return 0;
+}
