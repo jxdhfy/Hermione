@@ -247,3 +247,19 @@ int main()
   printf("%f\n",y);
   return 0;
 }
+
+
+#include<stdio.h>
+int main()
+{ double a,b,c;
+  printf("Please input a,b,c: ");
+  scanf("%lf%lf%lf",&a,&b,&c);
+  if(a==0)
+  	if(b!=0)
+  		printf("这是一个一次方程\n");
+  	else
+		;
+  else
+  	printf("这是一个二次方程\n");
+  return 0;
+}
