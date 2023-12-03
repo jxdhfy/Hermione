@@ -235,3 +235,15 @@ int main()
   printf("sum=%f\n",sum);
   return 0;
 }
+
+
+#include<stdio.h>
+int main()
+{ double x,y;
+  scanf("%lf",&x);
+  y=0;
+  if(x>=0)
+  	y=x;
+  printf("%f\n",y);
+  return 0;
+}
